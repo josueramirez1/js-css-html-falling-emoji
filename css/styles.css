@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(225, 224, 224);
+  width: 100vw;
+  height: 100vh;
+}
+
+.emoji {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: var(--c);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin: 50px auto;
+  top: -70px;
+  left: 0;
+}
+
+.eye {
+  position: absolute;
+  width: 7.5px;
+  height: 7.5px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.eye.left {
+  left: 12.5px;
+  top: 15px;
+}
+
+.eye.right {
+  right: 12.5px;
+  top: 15px;
+}
+
+.mouth {
+  position: absolute;
+  width: 25px;
+  height: 6px;
+  background: white;
+  border-bottom: 5px solid black;
+  border-radius: 0 0 25px 25px;
+  bottom: 10px;
+}
